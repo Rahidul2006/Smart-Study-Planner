@@ -1,18 +1,18 @@
-# 🚀 AlgoDistill: The CP Coach
+# 🚀 Smart Study Planner: The CP Coach
 **Tagline:** High-density algorithmic hints, zero-latency intuition.
 
 ---
 
 ## 📌 Overview
-**AlgoDistill** is a specialized, lightweight AI engine built on the **Smolify** platform. It is designed for competitive programmers and students who are "stuck" on a problem but want a nudge rather than a full code spoiler. 
+**Smart Study Planner** is a specialized, lightweight AI engine built on the **Smolify** platform. It is designed for competitive programmers and students who are "stuck" on a problem but want a strategic nudge rather than a full code spoiler. 
 
-Unlike general LLMs that provide verbose, conversational solutions, AlgoDistill is a **distilled specialist** that extracts only the algorithmic DNA of a problem statement.
+Unlike general LLMs that provide verbose, conversational solutions, Smart Study Planner is a **distilled specialist** that extracts only the algorithmic DNA of a problem statement to help students plan their approach.
 
 ---
 
 ## 🛠️ Core Capabilities
 * **Pattern Extraction:** Instantly maps story-based problem descriptions to core Data Structures and Algorithms (DSA).
-* **Constraint Analysis:** Translates input sizes (e.g., $1 \le N \le 10^5$) into the required Big-O complexity.
+* **Constraint Analysis:** Translates input sizes (e.g., **1 ≤ N ≤ 10⁵**) into the required Big-O complexity.
 * **Minimalist Feedback:** Provides "hints" to facilitate active learning instead of copy-paste solutions.
 * **Token Efficiency:** Reduces output volume by **80%** compared to standard LLMs, ensuring faster inference and lower compute costs.
 
@@ -32,7 +32,7 @@ The model generates a structured, high-density "Distilled Hint":
 | Field | Description | Example Output |
 | :--- | :--- | :--- |
 | **Pattern** | The primary algorithm or data structure. | **Monotonic Stack** |
-| **Complexity** | The optimal Time and Space bounds. | **$O(N)$ Time | $O(N)$ Space** |
+| **Complexity** | The optimal Time and Space bounds. | **$O(n)$ Time \| $O(n)$ Space** |
 | **Key Observation** | The critical logic required to solve. | For each bar, find the first smaller bar to its left and right to determine its maximum possible width. |
 
 ---
@@ -45,9 +45,9 @@ The model generates a structured, high-density "Distilled Hint":
 ---
 
 ## 📋 Hackathon "Quick Pitch"
-> "Most students fail to learn because they jump straight to the solution. **AlgoDistill** uses **Smolify** to create a 'Hint Engine' that gives you the *intuition* without the *answer*. We built a model that thinks like a Grandmaster but talks like a Coach."
+> "Most students fail to learn because they jump straight to the solution. **Smart Study Planner** uses **Smolify** to create a 'Hint Engine' that gives you the *intuition* without the *answer*. We built a model that thinks like a Grandmaster but talks like a Coach."
 
 ---
 
-**Developed at:** Google ML Kolkata Event 2026
+**Developed at:** Google ML Kolkata Event 2026  
 **Platform:** Powered by Smolify
